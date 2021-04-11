@@ -1,0 +1,15 @@
+---
+application:
+  name: "pythonote-web"
+  project: "Pythonote"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "pythonote"
+  version: "12"
+routers:
+- name: "main-pythonote-web"
+  routes:
+  - application_name: "pythonote-web"
+    paths:
+    - "/*"
